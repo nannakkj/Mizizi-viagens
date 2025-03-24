@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbb {
+    display: flex;
+    height: 12vh;
+    background-color: aquamarine;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbb ul{
+    display: inline-block;
+    padding: 2vh;
+}
+
+.navbb span {
+    font-family: Sansita One;
+}
