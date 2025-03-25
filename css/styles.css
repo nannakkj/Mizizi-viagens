@@ -2,29 +2,43 @@
     padding: 0;
     margin: 0;
 }
-body::-webkit-scrollbar {
+body::-webkit-scrollbar { 
     display: none;  
 }
+
+body { 
+    background-color: #000000;
+}
+
+/*navbar e dropdown*/
+
 .navbb {
     display: flex;
     height: 12vh;
-    background-color: aquamarine;
+    background-color: #8BAEC3;
     list-style: none;
     text-align: center;
     justify-content: center;
     align-items: center;
     user-select: none;
+    position: fixed;
+    width: 100%;
+    border-bottom: 4px solid #023E64;
+    z-index: 1;
+    
 }
 
 .navbb ul{
     display: inline-block;
     padding: 2vh;
     list-style: none;
+    transform: translate(-50% -50%);
 }
 
 .navbb p {
     font-family: Sansita_Bold ;
     font-size: 3vh;
+    transform: translate(-50% -50%);
 }
 
 .dropdown {
@@ -42,6 +56,31 @@ body::-webkit-scrollbar {
 .dropdown:hover .dropdown-content{
     display: block;
 }
+
+/*icone*/
+
+.icone {
+    left: 7%;
+    position: absolute;
+    height: 11vh;
+}
+/*background*/
+.fundao {
+    width: 100%;
+    opacity: .8;
+}
+
+/*Coisas do meio da tela*/
+.quad {
+    position: relative;
+    z-index: 2  ;
+    width: 80%;
+    max-width: 1200px;
+    background-color: fuchsia;
+    padding: 40px;
+    height: auto;
+}
+/*fontes*/
 @font-face {
     font-family: Sansita_Bold;
     src: url(../font/Sansita-Bold.ttf);
