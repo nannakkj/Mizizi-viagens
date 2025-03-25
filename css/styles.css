@@ -3,7 +3,7 @@
     margin: 0;
 }
 body::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari e Opera */
+    display: none;  
 }
 .navbb {
     display: flex;
